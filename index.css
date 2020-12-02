@@ -1,3 +1,6 @@
+* {
+	overflow: hidden;
+}
 .pinck {
 	display: inline-block;
 	position: relative;
@@ -26,6 +29,7 @@ article {
 	position: absolute;
 	margin: 20px;
 	padding-left: 20px;
+	font-family: sans-serif;
 	color: white;
 }
 .axis-arrow, .bookmark, .diamond {

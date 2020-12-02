@@ -25,11 +25,31 @@
 article {
 	position: absolute;
 	margin: 20px;
+	padding-left: 20px;
 	color: white;
 }
 .axis-arrow, .bookmark, .diamond {
 	position: absolute;
 	top: 50px;
 	right: 50px;
-	fill: white;
+}
+.upper-circle {
+	position: absolute;
+	background-color: white;
+	opacity: 30%;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	top: -50px;
+	right: -100px;
+}
+.bottom-circle {
+	position: absolute;
+	background-color: white;
+	opacity: 30%;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	top: 100px;
+	right: -20px;
 }

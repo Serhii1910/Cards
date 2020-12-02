@@ -1,0 +1,35 @@
+.pinck {
+	display: inline-block;
+	position: relative;
+	height: 200px;
+	width: 400px;
+	border-radius: 5px;
+	background-image: linear-gradient(90deg, rgba(251,162,161,1) 0%, rgba(232,170,175,1) 47%, rgba(255,145,170,1) 100%);
+}
+.blue {
+	display: inline-block;
+	position: relative;
+	height: 200px;
+	width: 400px;
+	border-radius: 5px;
+	background-image: linear-gradient(90deg, rgba(137,199,246,1) 30%, rgba(45,150,228,1) 100%);
+}
+.green {
+	display: inline-block;
+	position: relative;
+	height: 200px;
+	width: 400px;
+	border-radius: 5px;
+	background-image: linear-gradient(90deg, rgba(124,217,209,1) 40%, rgba(53,215,191,1) 100%);
+}
+article {
+	position: absolute;
+	margin: 20px;
+	color: white;
+}
+.axis-arrow, .bookmark, .diamond {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	fill: white;
+}
